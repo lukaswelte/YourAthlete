@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { push } from 'react-router-redux'
 import HeroImage from '../components/HeroImage';
 import AthleteListItem from '../components/AthleteListItem';
 import './AthleteOverview.css';
 
 class AthleteOverview extends Component {
   render() {
-    const { athletes } = this.props;
+    const { athletes, gotoAthlete } = this.props;
 
     const sports = [...new Set(athletes.map((athlete) => athlete.sport))];
 
     const sportsItems = sports.map(sport => <div key={sport}>{sport}</div>);
-    const athleteListItems = athletes.map((athlete) => <AthleteListItem key={athlete.name} athlete={athlete} />);
+    const athleteListItems = athletes.map((athlete) => <AthleteListItem key={athlete.name} athlete={athlete} onClick={() => gotoAthlete(athlete)} />);
 
     return (
       <div>
@@ -33,6 +34,11 @@ class AthleteOverview extends Component {
 const AthleteOverviewContainer = connect(
   (state) => ({
     athletes: state.athletes
+  }),
+  (dispatch) => ({
+    gotoAthlete: (athlete) => {
+      dispatch(push(`athlet/${athlete.name}`));
+    }
   })
 )(AthleteOverview)
 
