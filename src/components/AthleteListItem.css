@@ -1,0 +1,27 @@
+.AthleteListItem-container {
+  display: flex;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.AthleteListItem-textContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-bottom: 10px;
+}
+
+.AthleteListItem-sport {
+  margin-bottom: 10px;
+}
+
+.AthleteListItem-profilePhoto {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  margin-right: 20px;
+}

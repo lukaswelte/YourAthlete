@@ -1,0 +1,15 @@
+.AthleteOverview-content {
+  display: flex;
+}
+
+.AthleteOverview-athletes {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.AthleteOverview-sports {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sebastian Brendel",
+    "profilePhoto": "http://www.imgdad.com/wp-content/uploads/2015/07/Sebastian-Brendel-Smiling.jpg",
+    "teaserImage": "http://www.spox.com/de/sport/olympia/european-games-2015/1506/Bilder/sebastian-brendel-600.jpg",
+    "motivation": "Als Leistungssportler führe ich ein Doppelleben – zum einen ist da der Sebastian, der jeden Morgen zur Arbeit geht, und Gangster fängt. Auf der anderen Seite gehe ich um 15 Uhr weiter in die Trainingshalle. Meistens heißt es dann zwei Stunden Paddeln am Simuator. 4 Mal in der Woche steht außerdem Krafttraining an. Die Wochenenden im Sommer sind ausgebucht – Zeit für Urlaub bleibt da nur im Winter. Dann geht es nämlich von Wettkampf zu Wettkampf. Aktuell möchte ich ein Fernstudium zum Betriebswirt absolvieren, damit ich auch nach meiner aktiven Karriere eine Perspektive habe – so viel verdiene ich als Kanut nämlich nicht, dass ich mich danach auf den Lorbeeren ausruhen kann. Die Belastung ist aber immens. Durch Your Atlhete erhoffe ich genug monatliche Unterstützung zu erhalten, dass ich mein Studium erfolgreich abschließen kann. Über eure Unterstützung freue ich mich und werde euch regelmäßig mit Einblicken in meinen Alltag versorgen!",
+    "birthday": "12.03.1988",
+    "birthplace": "Schwedt/Oder",
+    "size": "192cm",
+    "weight": "92kg",
+    "job": "Bundespolizist",
+    "sport": "Kanu-Rennsport",
+    "competitions": ["C1 1000m Herren", "C2 1000m Herren"],
+    "successes": ["Gold - London 2012", "Bronze - Rio 2016"],
+    "club": "KC Potsdam"
+  },
+  {
+    "name": "Fabienne Kohlmann",
+    "profilePhoto": "http://www.fabienne-kohlmann.de/tl_files/fabienne_kohlmann/News/9_Nike%20Shooting%20050915-384%20I.jpg",
+    "teaserImage": "http://www.noz.de/media/2015/08/26/urn-newsml-dpa-com-20090101-150826-90-003213_full.jpg",
+    "motivation": "Meine Motivation ;)",
+    "birthday": "12.03.1988",
+    "birthplace": "Schwedt/Oder",
+    "size": "192cm",
+    "weight": "92kg",
+    "job": "Bundespolizist",
+    "sport": "Leichtathletik",
+    "competitions": ["Siebenkampf"],
+    "successes": ["Deutscher Meister 2016"],
+    "club": "KC Potsdam"
+  }
+]
