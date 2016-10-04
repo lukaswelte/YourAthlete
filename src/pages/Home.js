@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import HeroImage from '../components/HeroImage';
 import Title from '../components/Title';
+import KeyText from '../components/KeyText';
 import Section from '../components/Section';
 import Testimonial from '../components/Testimonial';
 
@@ -9,18 +10,18 @@ class Home extends PureComponent {
     return (
       <div>
         <HeroImage url="https://www.pointer.de/bilder/teaser_top/5965beachvolleyball_olympia.jpg">
-          <Title style={{color: 'white'}}>Your Athlete</Title>
         </HeroImage>
+        <Title style={{color: 'black', textAlign: 'center'}}>Your Athlete</Title>
         <Section>
-          <div>
+          <KeyText>
             Unterstütze deinen Sportler
-          </div>
-          <div>
+          </KeyText>
+          <KeyText>
             Volle Konzentration auf den Erfolg
-          </div>
-          <div>
+          </KeyText>
+          <KeyText>
             Direkter Draht zu deinen Sportlern
-          </div>
+          </KeyText>
         </Section>
         <Section>
           <Testimonial

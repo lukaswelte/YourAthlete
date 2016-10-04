@@ -1,0 +1,20 @@
+.NavigationItem-container {
+  font-family: "HelveticaNeue-CondensedBold", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.NavigationItem-container:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.NavigationItem-link {
+  text-decoration: none;
+  color: black;
+}
+
+.NavigationItem-linkActive {
+  color: green;
+}
