@@ -27,7 +27,7 @@
 .Testimonial-photoDescriptionContainer {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;

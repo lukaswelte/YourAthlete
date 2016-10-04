@@ -13,7 +13,7 @@ class Testimonial extends PureComponent {
           {title}
         </div>
         <div className="Testimonial-content">
-          <div className="Testimonial-photoContainer" style={{backgroundImage: `url(${photoURL})`}}>
+          <div className="Testimonial-photoContainer" style={{backgroundImage: `url(${photoURL})`, order: imageOnRight ? 2 : 0}}>
             <div className="Testimonial-photoDescriptionContainer">
               <div><b>{name}</b></div>
               <div>{description}</div>
