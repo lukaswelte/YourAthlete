@@ -10,13 +10,13 @@ class Home extends PureComponent {
       <div>
         <HeroImage url="https://www.pointer.de/bilder/teaser_top/5965beachvolleyball_olympia.jpg" />
         <Section>
-          <KeyText>
+          <KeyText style={{flex: 1}}>
             Unterstütze deinen Sportler
           </KeyText>
-          <KeyText>
+          <KeyText style={{flex: 1}}>
             Volle Konzentration auf den Erfolg
           </KeyText>
-          <KeyText>
+          <KeyText style={{flex: 1}}>
             Direkter Draht zu deinen Sportlern
           </KeyText>
         </Section>
