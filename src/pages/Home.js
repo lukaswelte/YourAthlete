@@ -5,11 +5,17 @@ import PageContent from '../components/PageContent';
 import Section from '../components/Section';
 import Testimonial from '../components/Testimonial';
 
+import HomeHeroImage from '../img/BeachVolleyballWalkenhorstGold.jpg';
+import AlexanderWienke from '../img/AlexanderWienke.jpg';
+import Passau from '../img/passau.jpg';
+import FlorianVogel from '../img/FlorianVogel.jpg';
+import Swimming from '../img/swimming.jpg';
+
 class Home extends PureComponent {
   render() {
     return (
       <div>
-        <HeroImage url="https://www.pointer.de/bilder/teaser_top/5965beachvolleyball_olympia.jpg" />
+        <HeroImage url={HomeHeroImage} />
         <PageContent>
           <Title>Your Athlete</Title>
           <Section>
@@ -26,10 +32,10 @@ class Home extends PureComponent {
           <Section>
             <Testimonial
               title="Was der Athlet sagt:"
-              photoURL="http://www.dsv.de/typo3temp/pics/Schwimmen_Vogel_Florian_2016_2b254d144f.jpg"
+              photoURL={FlorianVogel}
               name="Florian Vogel"
               description="Olympionike über 400m Freistil"
-              quoteBackgroundURL="https://hd.unsplash.com/photo-1438029071396-1e831a7fa6d8">
+              quoteBackgroundURL={Swimming}>
               Durch YourAthlets erhalten wir Leistungssportler in Deutschland ganz neue Möglichkeiten.<br />
               Die Förderung erlaubt mir die volle Konzentration auf das Schwimmen zu legen und mir bleibt ausreichend Zeit mich durch mein Studium auf das Leben nach dem aktiven Schwimmen vorzubereiten
             </Testimonial>
@@ -37,10 +43,10 @@ class Home extends PureComponent {
           <Section>
             <Testimonial
               title="Was der Supporter sagt:"
-              photoURL="https://pbs.twimg.com/profile_images/592027821842784259/jv9jt5EV.jpg"
+              photoURL={AlexanderWienke}
               name="Alexander Wienke"
               description="Wasserratte aus Passau"
-              quoteBackgroundURL="http://www.abacho.de/wp-content/uploads/Passau.jpg"
+              quoteBackgroundURL={Passau}
               photoOnRight={true}>
               Früher bin ich selbst bei den Bayrischen Landesmeisterschaften geschwommen. Zu Olympia hat es leider nie gereicht. Das ich jetzt Florian Vogel auf seinem Weg nach Tokio unterstützen kann ist mir eine Herzensangelegenheit, da ich viel Potenzial in Ihm sehe. Mit YourAthlete ist es so einfach wie nie den Sport zu unterstützen. Besonders gefreut hat mich, als Florian mich zu sich ins die Schwimmhalle eingeladen hat und ich in live sehen konnte.
             </Testimonial>

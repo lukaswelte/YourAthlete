@@ -7,7 +7,7 @@ import PageContent from '../components/PageContent';
 import AthleteListItem from '../components/AthleteListItem';
 import './AthleteOverview.css';
 
-import AthleteDetailHeroImage from './AthleteDetailHeroImage.jpg';
+import AthleteOverviewHeroImage from '../img/GermanyOlympicsIntro.jpg';
 
 class AthleteOverview extends Component {
   render() {
@@ -20,7 +20,7 @@ class AthleteOverview extends Component {
 
     return (
       <div>
-        <HeroImage url={AthleteDetailHeroImage}/>
+        <HeroImage url={AthleteOverviewHeroImage}/>
         <PageContent>
           <Title>Sportarten</Title>
           <div className="AthleteOverview-content">
