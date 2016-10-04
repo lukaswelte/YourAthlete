@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import HeroImage from '../components/HeroImage';
 import Title from '../components/Title';
+import PageContent from '../components/PageContent';
 import Section from '../components/Section';
 
 class Idea extends PureComponent {
@@ -8,7 +9,7 @@ class Idea extends PureComponent {
     return (
       <div>
         <HeroImage url="https://hd.unsplash.com/photo-1465487031582-bbc9519cc957" />
-        <div style={{margin: '0 80px'}}>
+        <PageContent>
           <Title>Die Idee</Title>
           <Section>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br /><br />
@@ -31,7 +32,7 @@ class Idea extends PureComponent {
 
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </Section>
-        </div>
+        </PageContent>
       </div>
     );
   }
