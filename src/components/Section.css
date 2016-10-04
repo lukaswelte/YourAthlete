@@ -1,9 +1,7 @@
-.HeroImage-container {
+.Section-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 400px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

@@ -1,0 +1,10 @@
+.Footer-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.Footer-item {
+  margin-right: 20px;
+}

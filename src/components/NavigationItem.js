@@ -7,7 +7,7 @@ class NavigationItem extends PureComponent {
     const { children, to } = this.props;
     return (
       <div className="NavigationItem-container">
-        <Link to={to}>{children}</Link>
+        <Link to={to} className="NavigationItem-link">{children}</Link>
       </div>
     );
   }
