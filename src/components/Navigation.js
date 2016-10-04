@@ -11,10 +11,10 @@ class Navigation extends PureComponent {
         <Logo style={{marginRight: '100px'}} />
         <div className="Navigation-itemsContainer">
           <NavigationItem to="/">Home</NavigationItem>
-          <NavigationItem to="idee">Die Idee</NavigationItem>
-          <NavigationItem to="athleten">Athletenübersicht</NavigationItem>
-          <NavigationItem to="werde-athlet">Werde ein Athlet</NavigationItem>
-          <NavigationItem to="logout">Logout</NavigationItem>
+          <NavigationItem to="/idee">Die Idee</NavigationItem>
+          <NavigationItem to="/athleten">Athletenübersicht</NavigationItem>
+          <NavigationItem to="/werde-athlet">Werde ein Athlet</NavigationItem>
+          <NavigationItem to="/logout">Logout</NavigationItem>
         </div>
       </div>
     );

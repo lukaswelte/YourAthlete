@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import HeroImage from '../components/HeroImage';
+import Title from '../components/Title';
+import PageContent from '../components/PageContent';
 
 class AthleteDetail extends Component {
   render() {
@@ -9,7 +11,9 @@ class AthleteDetail extends Component {
     return (
       <div>
         <HeroImage url={athlete.teaserImage}/>
-        <h1>{athlete.name}</h1>
+        <PageContent>
+          <Title>{athlete.name}</Title>
+        </PageContent>
       </div>
     );
   }
