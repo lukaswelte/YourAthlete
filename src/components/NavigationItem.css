@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 20px;
 }
 
 .NavigationItem-container:hover {
@@ -13,6 +12,7 @@
 .NavigationItem-link {
   text-decoration: none;
   color: black;
+  padding: 25px 20px;
 }
 
 .NavigationItem-linkActive {
