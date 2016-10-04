@@ -4,11 +4,13 @@ import Title from '../components/Title';
 import PageContent from '../components/PageContent';
 import Section from '../components/Section';
 
+import RunningImage from '../img/running.jpg';
+
 class Idea extends PureComponent {
   render() {
     return (
       <div>
-        <HeroImage url="https://hd.unsplash.com/photo-1465487031582-bbc9519cc957" />
+        <HeroImage url={RunningImage} />
         <PageContent>
           <Title>Die Idee</Title>
           <Section>
