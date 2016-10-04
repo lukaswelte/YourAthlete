@@ -12,6 +12,17 @@ class Home extends PureComponent {
           <Title style={{color: 'white'}}>Your Athlete</Title>
         </HeroImage>
         <Section>
+          <div>
+            Unterstütze deinen Sportler
+          </div>
+          <div>
+            Volle Konzentration auf den Erfolg
+          </div>
+          <div>
+            Direkter Draht zu deinen Sportlern
+          </div>
+        </Section>
+        <Section>
           <Testimonial
             title="Was der Athlet sagt:"
             photoURL="http://www.dsv.de/typo3temp/pics/Schwimmen_Vogel_Florian_2016_2b254d144f.jpg"
