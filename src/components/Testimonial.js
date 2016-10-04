@@ -1,11 +1,9 @@
 import React, { PureComponent } from 'react';
-import CircularImage from './CircularImage';
-import Title from './Title';
 import './Testimonial.css';
 
 class Testimonial extends PureComponent {
   render() {
-    const { imageOnRight, children, quoteBackgroundURL, photoURL, name, description, title } = this.props;
+    const { photoOnRight, children, quoteBackgroundURL, photoURL, name, description, title } = this.props;
 
     return (
       <div className="Testimonial-container">
@@ -13,7 +11,7 @@ class Testimonial extends PureComponent {
           {title}
         </div>
         <div className="Testimonial-content">
-          <div className="Testimonial-photoContainer" style={{backgroundImage: `url(${photoURL})`, order: imageOnRight ? 2 : 0}}>
+          <div className="Testimonial-photoContainer" style={{backgroundImage: `url(${photoURL})`, order: photoOnRight ? 2 : 0}}>
             <div className="Testimonial-photoDescriptionContainer">
               <div><b>{name}</b></div>
               <div>{description}</div>

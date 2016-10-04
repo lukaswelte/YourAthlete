@@ -4,7 +4,7 @@
 }
 
 .Testimonial-title {
-  font-size: 25px;
+  font-size: 1.6em;
   margin: 50px 20px 20px 20px;
 }
 
@@ -27,7 +27,7 @@
 .Testimonial-photoDescriptionContainer {
   display: flex;
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
