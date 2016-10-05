@@ -1,0 +1,16 @@
+.AthleteDetail-twocolumn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AthleteDetail-motivation {
+  flex: 2;
+  margin-right: 50px;
+  min-width: 300px;
+}
+
+.AthleteDetail-bio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
