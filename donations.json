@@ -1,0 +1,30 @@
+[
+  {
+    "athlete": "Sebastian Brendel",
+    "amount": 50,
+    "supporter": "Max Meininger",
+    "startMonth": 4,
+    "durationInMonths": 3
+  },
+  {
+    "athlete": "Sebastian Brendel",
+    "amount": 8,
+    "supporter": "Hans Golden",
+    "startMonth": 4,
+    "durationInMonths": 4
+  },
+  {
+    "athlete": "Sebastian Brendel",
+    "amount": 5,
+    "supporter": "Sam Smith",
+    "startMonth": 1,
+    "durationInMonths": 3
+  },
+  {
+    "athlete": "Sebastian Brendel",
+    "amount": 30,
+    "supporter": "Peter Brandt",
+    "startMonth": 9,
+    "durationInMonths": 3
+  }
+]

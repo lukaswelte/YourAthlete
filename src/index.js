@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import { routerMiddleware } from 'react-router-redux';
 import rootReducer from './reducers/rootReducer';
@@ -15,8 +15,9 @@ import './index.css';
 import { syncHistoryWithStore } from 'react-router-redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-const middleware = routerMiddleware(browserHistory)
-const store = createStore(rootReducer, applyMiddleware(middleware));
+const middleware = routerMiddleware(browserHistory);
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(rootReducer, composeEnhancers(applyMiddleware(middleware)));
 const history = syncHistoryWithStore(browserHistory, store);
 
 ReactDOM.render((
