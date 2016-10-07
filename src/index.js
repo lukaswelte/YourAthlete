@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Idea from './pages/Idea';
 import AthleteOverview from './pages/AthleteOverview';
 import AthleteDetail from './pages/AthleteDetail';
+import BecomeAnAthlete from './pages/BecomeAnAthlete';
 import './index.css';
 
 import { syncHistoryWithStore } from 'react-router-redux'
@@ -28,6 +29,7 @@ ReactDOM.render((
         <Route path="idee" component={Idea}/>
         <Route path="athleten" component={AthleteOverview} />
         <Route path="athlet/:name" component={AthleteDetail} />
+        <Route path="werde-athlet" component={BecomeAnAthlete} />
         <Route path="*" component={NotFound}/>
       </Route>
     </Router>

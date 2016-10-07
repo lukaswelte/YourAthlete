@@ -15,7 +15,7 @@ class AthleteDetail extends Component {
     const supporters = donations.map((donation) => (<div key={donation.supporter}>{donation.supporter}</div>));
 
     const clickedDonate = () => {
-      onDonate(athlete.name, 'Tester', 10, 2);
+      onDonate(athlete.name, 'Max Mustermann', 10, 2);
     };
 
     var monthlyMoney = [];
@@ -69,8 +69,9 @@ class AthleteDetail extends Component {
               <SectionTitle>Unterstützen</SectionTitle>
               <div>Werde jetzt Unterstützer von {athlete.name}!</div>
               <div style={{marginTop: '2em'}}>
-                Sebastian Brendel mit 5 Euro im Monat unterstützen für die Dauer von
-                <button onClick={clickedDonate}>Support</button>
+                Sebastian Brendel mit 10 Euro im Monat unterstützen für die Dauer von 2 Monaten
+                < br/>
+                <button onClick={clickedDonate}>Jetzt unterstützen</button>
               </div>
             </div>
           </div>
