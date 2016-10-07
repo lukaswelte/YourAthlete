@@ -14,7 +14,6 @@ class Navigation extends PureComponent {
           <NavigationItem to="/idee">Die Idee</NavigationItem>
           <NavigationItem to="/athleten">Athletenübersicht</NavigationItem>
           <NavigationItem to="/werde-athlet">Werde ein Athlet</NavigationItem>
-          <NavigationItem to="/logout">Logout</NavigationItem>
         </div>
       </div>
     );
